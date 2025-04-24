@@ -1,0 +1,313 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+  .nav .menu ul {
+    display: none;
+  }
+  .menu-icon  {
+    display: block;
+  }
+  .dark_mode {
+    display: flex;
+  }
+
+  .home {
+    height: 100%;
+    padding: 100px 0 30px;
+  }
+  .home .home-contant {
+    flex-direction: column-reverse;
+  }
+  .home .home-desc {
+    width: 100%;
+    text-align: center;
+  }
+  .home .home-img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .home .home-desc .home-btn {
+    justify-content: center;
+  }
+
+  .chefs .chefs-item {
+    width: 100%;
+  }
+
+  .gallery .gallery-item .column {
+    width: 100%;
+  }
+  .contact .contact-desc .contact-column {
+    width: 100%;
+  }
+  .contact .contact-input .name-email {
+    flex-direction: column;
+  }
+  .contact .contact-input .name-email input {
+    width: 100%;
+  }
+  .footer .coll {
+    flex-wrap: wrap;
+  }
+  .footer .footer-about {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .footer .footer-subscribe {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .footer .footer-subscribe .email-btn {
+    flex-direction: column;
+  }
+  .footer .footer-subscribe .email-btn input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer .footer-subscribe .email-btn button {
+    width: 100%;
+    padding: 10px;
+  }
+  .footer .contact-details {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .nav .menu ul {
+    display: flex;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .home {
+    height: 100%;
+    padding: 100px 0 30px;
+  }
+  .home .home-contant {
+    flex-direction: column-reverse;
+  }
+  .home .home-desc {
+    width: 100%;
+    text-align: center;
+  }
+  .home .home-img {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .home .home-desc .home-btn {
+    justify-content: center;
+  }
+
+  .chefs .chefs-item {
+    width: 50%;
+  }
+
+  .gallery .gallery-item .column {
+    width: 50%;
+  }
+  .contact .contact-desc .contact-column {
+    width: 50%;
+  }
+  .contact .contact-input .name-email {
+    flex-direction: column;
+  }
+  .contact .contact-input .name-email input {
+    width: 100%;
+  }
+  .footer .coll {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .footer .footer-about {
+    width: 50%;
+    margin: 0 0 30px;
+    order: 2;
+  }
+  .footer .footer-subscribe {
+    width: 100%;
+    margin: 0 0 20px;
+    order: 3;
+  }
+  .footer .footer-subscribe .email-btn {
+    flex-direction: row;
+  }
+  .footer .footer-subscribe .email-btn input {
+    width: 80%;
+    padding: 0;
+  }
+  .footer .footer-subscribe .email-btn button {
+    width: 20%;
+    padding: 10px;
+  }
+  .footer .contact-details {
+    width: 50%;
+    margin: 0 0 20px;
+    order: 2;
+    padding: 10px 0 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+  .nav .menu ul {
+    display: flex;
+  }
+  .menu-icon {
+    display: none;
+  }
+
+  .home {
+    padding: 100px 0 30px;
+    height: 100vh;
+  }
+  .home .home-contant {
+    flex-direction: row;
+  }
+
+  .home .home-desc {
+    width: 40%;
+    text-align: start;
+  }
+  .home .home-img {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .home .home-desc .home-btn {
+    justify-content: start;
+  }
+
+  .chefs .chefs-item {
+    width: 33.333%;
+  }
+
+  .gallery .gallery-item .column {
+    width: 33.333%;
+  }
+  .contact .contact-desc .contact-column {
+    width: 33.333%;
+  }
+  .contact .contact-input .name-email {
+    flex-direction: row;
+  }
+  .contact .contact-input .name-email input {
+    width: 50%;
+  }
+  .footer .coll {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .footer .footer-about {
+    width: 50%;
+    margin: 0 0 30px;
+    order: 1;
+  }
+  .footer .footer-subscribe {
+    width: 100%;
+    order: 3;
+    padding-right: 10px;
+  }
+  .contact .contact-desc .contact-column {
+    width: 50%;
+  }
+  .footer .footer-subscribe .email-btn input {
+    width: 80%;
+    padding: 10px;
+  }
+  .footer .footer-subscribe .email-btn button {
+    width: 20%;
+    padding: 0;
+  }
+  .footer .contact-details {
+    width: 50%;
+    margin: 0 0 20px;
+    order: 2;
+    padding: 10px 0 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 90%;
+  }
+  .nav .menu ul {
+    display: flex;
+  }
+  .menu-icon {
+    display: none;
+  }
+
+  .home {
+    padding: 100px 0 30px;
+    height: 100vh;
+  }
+  .home .home-contant {
+    flex-direction: row;
+  }
+
+  .home .home-desc {
+    width: 40%;
+    text-align: start;
+  }
+  .home .home-img {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .home .home-desc .home-btn {
+    justify-content: start;
+  }
+
+  .chefs .chefs-item {
+    width: 33.333%;
+  }
+
+  .gallery .gallery-item .column {
+    width: 33.333%;
+  }
+  .contact .contact-desc .contact-column {
+    width: 33.333%;
+  }
+  .contact .contact-input .name-email {
+    flex-direction: row;
+  }
+  .contact .contact-input .name-email input {
+    width: 50%;
+  }
+  .footer .coll {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .footer .footer-about {
+    width: 25%;
+    margin: 0 0 30px;
+    order: 0;
+  }
+  .footer .footer-subscribe {
+    width: 50%;
+    order: 0;
+    padding-right: 20px;
+  }
+  .contact .contact-desc .contact-column {
+    width: 50%;
+  }
+  .footer .footer-subscribe .email-btn input {
+    width: 80%;
+    padding: 10px;
+  }
+  .footer .footer-subscribe .email-btn button {
+    width: 20%;
+    padding: 0;
+  }
+  .footer .contact-details {
+    width: 25%;
+    margin: 0 0 20px;
+    order: 0;
+    padding: 10px 0 0;
+  }
+}
