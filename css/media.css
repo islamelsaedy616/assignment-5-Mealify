@@ -5,7 +5,7 @@
   .nav .menu ul {
     display: none;
   }
-  .menu-icon  {
+  .menu-icon {
     display: block;
   }
   .dark_mode {
@@ -35,9 +35,10 @@
     width: 100%;
   }
 
-  .gallery .gallery-item .column {
-    width: 100%;
+  .gallery .gallery-item {
+    columns: 1;
   }
+
   .contact .contact-desc .contact-column {
     width: 100%;
   }
@@ -107,9 +108,8 @@
   .chefs .chefs-item {
     width: 50%;
   }
-
-  .gallery .gallery-item .column {
-    width: 50%;
+  .gallery .gallery-item {
+    columns: 2;
   }
   .contact .contact-desc .contact-column {
     width: 50%;
@@ -188,8 +188,8 @@
     width: 33.333%;
   }
 
-  .gallery .gallery-item .column {
-    width: 33.333%;
+  .gallery .gallery-item {
+    columns: 3;
   }
   .contact .contact-desc .contact-column {
     width: 33.333%;

@@ -344,10 +344,7 @@ body:has(#contact:target) .nav .menu a[href="#contact"]::before {
   text-align: center;
   margin-bottom: 20px;
 }
-.gallery .gallery-item {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .gallery .gallery-header h2 {
   font-size: 14px;
   color: #7f7f90;
@@ -362,10 +359,12 @@ body:has(#contact:target) .nav .menu a[href="#contact"]::before {
 .gallery .gallery-header p span {
   color: #ce1212;
 }
-.gallery .gallery-item .column {
-  width: 33.333%;
+.gallery .gallery-item {
+  columns: 3;
 }
+
 .gallery .gallery-item .item {
+  width: 33.333%;
   padding: 10px;
   width: 100%;
 }
